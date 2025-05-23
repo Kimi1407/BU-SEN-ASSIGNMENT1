@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="Images/logo.png" />
+    <title>PORTFOLIO</title>
+    <script
+      src="https://kit.fontawesome.com/920bc8ae8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background: black">
+    <nav class="nav">
+      <a id="homeid">
+        <i class="fa-solid fa-home"></i>
+        <p>HOME</p>
+      </a>
+
+      <a id="aboutid">
+        <i class="fa-solid fa-user"></i>
+        <p>ABOUT</p>
+      </a>
+
+      <a id="projectsid">
+        <i class="fa-solid fa-briefcase"></i>
+        <p>PROJECTS</p>
+      </a>
+
+      <a id="contactid">
+        <i class="fa-solid fa-phone"></i>
+        <p>CONTACT</p>
+      </a>
+    </nav>
+
+    <section id="home">
+      <div class="homepage">
+        <center>
+          <img src="Images/logo.png" alt="me" />
+          <h1>OKOYE OGECHI ANGEL.</h1>
+          <p>24/0327 | SOFTWARE ENGINEERING.</p>
+        </center>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about">
+        <h2>About Me</h2>
+        <hr />
+        <p>
+          Hi, I’m Ogechi, a software engineering student at Babcock University,
+          Illesan-Remo. I’m passionate about creating interactive websites,
+          mobile, experiences and games. I'm currently building my skills in web
+          development, app design, game development and UI/UX.
+          <br /><br />
+          When I’m not coding, I’m probably crocheting, reading novels,
+          listening to music, experimenting with new game mechanics or diving
+          into YouTube tutorials to learn something new.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="projects">
+        <h2>My Projects<h2>
+        <hr />
+
+        <div class="card">
+        <img src="Images/project 3.PNG" alt="project 3" />
+        <h4>
+          Software Engineering Info
+          <br />
+          <a href="https://codepen.io/Ogechi-Okoye/pen/XJrByJg">Codepen Link</a>
+        </h4>
+      </div>
+        
+      <div class="card">
+        <img src="Images/project 2.PNG" alt="project 2" />
+        <h4>
+          COS 107 Introduction
+          <br />
+          <a href="https://codepen.io/Ogechi-Okoye/pen/XJrByJg">Codepen Link</a>
+        </h4>
+        </div>
+
+        <div class="card">
+        <img src="Images/projecr 1.PNG" alt="project 1">
+        <h4>
+          Course Enrollment Form
+          <br />
+          <a href="https://codepen.io/Ogechi-Okoye/pen/XJrByJg">Codepen Link</a>
+        </h4>
+        </div>
+
+        <div class="card">
+        <img src= "Images/project 4.PNG" alt="project 4" />
+        <h4>
+          Socially App
+          <br />
+          <a href="https://codepen.io/Ogechi-Okoye/pen/XJrByJg">Codepen Link</a>
+        </h4>
+        </div>
+
+        <div class="card">
+        <img src= "Images/project 5.PNG" alt="project 5" />
+        <h4>
+          Ashura Company
+          <br />
+          <a href="https://codepen.io/Ogechi-Okoye/pen/XJrByJg">Codepen Link</a>
+        </h4>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact">
+        <h2>My Contacts</h2>
+        <hr>
+        <a href="">
+          <i class="fa-solid fa-map-marker"></i>
+          <p>Ogun State, Nigeria.</p>
+        </a>
+
+        <a href="https://wa.me/2347041749888">
+          <i class="fa-solid fa-phone"></i>
+          <p>+234 704 174 9888 <br>Contact me on Whatsapp.</p>
+        </a>
+
+        <a href="mailto:ogeokoye1407@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+          <p>ogeokoye1407@gmail.com <br>Send me a mail.</p>
+        </a>
+        
+      </div>
+    </section>
+    <footer>
+      <p>NAME: OKOYE OGECHI ANGEL<br>
+        MATRIC NUMBER: 24/0327<br>
+      COURSE: BU-SEN 102<br>
+    DEPARTMENT: SOFTWARE ENGINEERING GROUP D</p>
+    </footer>
+
+    <script>
+      console.log("Portfolio site loaded")
+
+      document.getElementById("homeid").addEventListener
+      ("click", function(){
+        document.getElementById("home").scrollIntoView({})
+      })
+
+      document.getElementById("aboutid").addEventListener
+      ("click", function(){
+        document.getElementById("about").scrollIntoView({})
+      })
+
+      document.getElementById("projectsid").addEventListener
+      ("click", function(){
+        document.getElementById("projects").scrollIntoView({})
+      })
+
+      document.getElementById("contactid").addEventListener
+      ("click", function(){
+        document.getElementById("contact").scrollIntoView({})
+      })
+    </script>
+  </body>
+</html>
